@@ -1,0 +1,18 @@
+{
+  "name": "n1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node ./src/app/server/index.js",
+    "client": "node ./src/app/client/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "util": "^0.12.3"
+  }
+}
